@@ -1,0 +1,1 @@
+This folder uses to put some globally used functions.

@@ -1,0 +1,38 @@
+.overview {
+  max-width: 1440px;
+}
+
+.phone-number-search {
+  padding: 2rem;
+}
+
+.incoming-call {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.pie-chart {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pie-chart > div {
+  margin: 0 auto;
+}
+
+.pie-chart-title {
+  color: dimgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.report-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+th .css-uz3ku6-MuiTableCell-root.MuiTableCell-head {
+  background-color: grey;
+}

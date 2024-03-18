@@ -1,0 +1,56 @@
+.quote-console-table-container {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.quote-console-table.MuiDataGrid-root {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0;
+  border-top: 2px solid #57413a;
+}
+
+.quote-console-table.MuiDataGrid-root .MuiDataGrid-columnSeparator {
+  color: #d9d9d9;
+}
+
+.quote-console-table.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-size: 1rem;
+}
+
+.quote-console-table.MuiDataGrid-root .MuiDataGrid-cell:focus,
+.quote-console-table.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none;
+}
+
+.quote-console-table .MuiDataGrid-footerContainer {
+  justify-content: flex-start;
+}
+
+.quote-console-table .MuiDataGrid-selectedRowCount {
+  display: none;
+}
+
+.quote-delete-button.MuiButton-root {
+  margin-left: 1rem;
+}
+
+.delete-quote-confirm-button.MuiButton-root,
+.delete-all-quote-confirm-button.MuiButton-root {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.delete-quote-dialog,
+.quote-delete-confirmation-dialog,
+.delete-all-quotes-dialog,
+.quote-delete-all-confirmation-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.dialog-close-icon-button.MuiIconButton-root {
+  color: rgba(0, 0, 0, 0.35);
+}

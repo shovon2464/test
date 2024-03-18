@@ -1,0 +1,108 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#root,
+/* .App, */
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+label {
+  display: block;
+  /* margin-top: 10px; */
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #000000;
+  height: 90vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  max-width: calc(100% - 78px);
+  min-height: calc(100vh - 140px);
+  margin-top: 20px;
+}
+
+.open {
+  grid-template-columns: 180px auto;
+  margin-left: 78px;
+}
+
+.close {
+  grid-template-columns: 10px auto;
+  /* margin-left: 78px; */
+}
+
+.page-container {
+  height: 100%;
+  margin-top: 50px;
+  max-height: calc(100% - 78px);
+}
+
+@media only screen and (max-width: 600px) {
+  .page-container {
+    margin-top: 20%;
+  }
+}
+
+.search-input-n-button {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.search-input-n-button > button {
+  margin-left: 1rem;
+}
+
+.user-management-table {
+  margin-top: 3rem;
+}
+
+.App {
+  font-family: "Roboto", sans-serif;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}

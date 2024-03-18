@@ -1,0 +1,19 @@
+.files_container {
+  width: 100%;
+  margin-top: 6rem;
+  padding: 3rem;
+  border: 1px;
+  border-radius: 0.25rem;
+  position: relative;
+  border: solid #e9ecef;
+}
+
+@media only screen and (max-width: 600px) {
+  .files_container {
+    padding: 1rem 1rem 3rem 1rem;
+    max-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+}

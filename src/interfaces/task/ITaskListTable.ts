@@ -1,0 +1,33 @@
+export interface ITaskListTable {
+  id: string;
+  Task_Id: string;
+  Task_Description: string;
+  Create_Date: Date | string;
+  Assign_Date?: Date | string;
+  Close_Date?: Date | string;
+  FollowUp_Date?: Date | string;
+  QC_Date?: Date | string;
+  Expire_Date?: Date | string;
+  Create_By: string;
+  Assign_By: string;
+  Assign_To: string;
+  QC_By?: string;
+  Job_Type_Name: string;
+  Job_Sub_Type_Name: string;
+  CRM_Client_Name?: string;
+  CRM_Client_Phone?: string;
+  CRM_Client_Email?: string;
+  //Priority_Id?: string;
+  Priority_Description?: string;
+  Policy_Number?: string;
+  Task_Newest_Note?: string;
+  Task_Status?: string;
+  CM_Vehicle_Info_Id?: string;
+  CM_Home_Info_Id?: string;
+  Task_Files?: string;
+  Task_Quote_Details?: string | null;
+  Address1?: string | null;
+  Address2?: string | null;
+  PostalCode?: string | null;
+  HelloSign_Id?: string | null;
+}

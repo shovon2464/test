@@ -1,0 +1,26 @@
+.welcomeContent {
+    display: inline-block;
+    font-family: Roboto;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .welcomeContent{
+        margin-top: -20%;
+        margin-bottom: 10%;
+    }
+}
+.aboutWelcomeContent {
+    display: inline-block;
+    font-family: Roboto;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutWelcomeContent{
+        margin-top: -20%;
+        margin-bottom: 10%;
+    }
+}

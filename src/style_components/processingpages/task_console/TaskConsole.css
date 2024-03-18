@@ -1,0 +1,397 @@
+/* Task Table Designs */
+.job-type-icons:hover {
+  color: #a69282;
+}
+
+.job-type-sub-type-switch-button.MuiButton-root {
+  color: black;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.job-type-sub-type-switch-button.MuiButton-root:hover {
+  color: #a69282;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.task-file-icon-button.MuiButton-root {
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: normal;
+  color: #000;
+}
+
+.auto-delete-all-button.MuiButtonBase-root {
+  margin-left: auto;
+}
+
+.task-file-icon-button.MuiButton-root:hover,
+.task-file-icon-button.MuiButton-root:active {
+  color: #a69282;
+  background-color: unset;
+}
+
+.task-console-table-container {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.task-console-table.MuiDataGrid-root {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0;
+  border-top: 2px solid #57413a;
+}
+
+.task-console-table.MuiDataGrid-root .MuiDataGrid-columnSeparator {
+  color: #d9d9d9;
+}
+
+.task-console-table.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-size: 1rem;
+}
+
+.task-console-table.MuiDataGrid-root .MuiDataGrid-cell:focus,
+.task-console-table.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none;
+}
+
+.task-console-table .MuiDataGrid-footerContainer {
+  justify-content: flex-start;
+}
+
+.task-console-table .MuiDataGrid-selectedRowCount {
+  display: none;
+}
+
+/* Popup Dialogs */
+.completed-task-delete-button.MuiButton-root,
+.waiting-doc-match-button.MuiButton-root {
+  margin-left: 1rem;
+}
+.hellosign-btn {
+  margin-top: 1rem;
+}
+
+.matching-task-confirmation-dialog,
+.matching-edocs-dialog,
+.client-contact-info-dialog,
+.auto-n-driver-info-dialog,
+.home-info-dialog,
+.task-files-list-dialog,
+.task-note-dialog,
+.switch-job-type-dialog,
+.auto-assign-dialog,
+.task-updates-check-dialog,
+.role-change-dialog,
+.role-delete-dialog,
+.task-priority-delete-dialog,
+.user-delete-dialog,
+.task-priority-delete-dialog,
+.role-remove-dialog,
+.delete-all-task-dialog,
+.alert-days-dialog,
+.delete-days-dialog,
+.task-alert-dialog,
+.create-task-from-quote-dialog,
+.reset-password-dialog,
+.quote-detail-dialog,
+.switch-job-tyle-dialog,
+.update-policy-number-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.confirm-button.MuiDialogActions-root {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.matching-task-confirmation-dialog h4 {
+  margin-bottom: 0;
+}
+
+.matching-task-confirmation-dialog.MuiDialogTitle-root {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0.5rem;
+}
+
+.dialog-close-icon-button.MuiIconButton-root {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.delete-task-confirm-button.MuiButton-root {
+  margin-right: 0.5rem;
+}
+
+/* task console "" button beside "Auto assign" */
+.delete-all-button {
+  margin-right: 1.5rem;
+}
+
+/* sync to esign button */
+.sync-esign-button {
+  margin-right: 1.5rem;
+}
+
+.alert-bell.MuiIconButton-root {
+  margin-top: -0.5rem;
+  margin-right: 1rem;
+}
+
+/* Follow-up Date */
+.follow-up-date-validation {
+  color: #fe3939;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+/* Spinner */
+.spinner-border {
+  margin-right: 0.25rem;
+}
+
+.follow-up-date-spinner {
+  color: #c0c0c0;
+}
+
+/* Match EDocs Popup Dialog */
+.policy-number-search-button.MuiButton-root,
+.policy-number-clear-button.MuiButton-root {
+  margin-top: 0.45rem;
+  border-radius: 8px;
+}
+
+.matching-task-match-button.MuiButton-root {
+  margin-left: 1rem;
+}
+
+.matching-task-confirmation-dialog .MuiDialog-paper,
+.completed-task-delete-confirmation-dialog .MuiDialog-paper {
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.matching-edocs-dialog.MuiDialogTitle-root {
+  font-weight: 700;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.matching-edoc-tasks-table,
+.tast-files-popup-table {
+  min-width: 700px;
+}
+
+/* Client Contact Info Popup Dialog */
+.client-contact-info-dialog.MuiDialogTitle-root {
+  font-weight: 700;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.account-box-icon:hover {
+  color: #a69282;
+}
+
+/* Auto, Home, File Info And Task Note Popup Dialog */
+.auto-n-driver-info-dialog.MuiDialogTitle-root,
+.auto-n-driver-info-dialog-drivers-info.MuiTypography-root,
+.home-info-dialog.MuiTypography-root,
+.task-files-list-dialog.MuiTypography-root,
+.task-note-dialog.MuiTypography-root {
+  font-weight: 700;
+}
+
+.auto-info-popup-divider.MuiDivider-root {
+  margin: 1rem auto;
+}
+
+.create-task-note-button-container.MuiDialogActions-root {
+  padding: 1rem 1.4rem;
+}
+
+.MuiDataGrid-filterForm {
+  display: flex;
+  align-items: center;
+}
+
+.MuiDataGrid-filterForm .MuiTextField-root {
+  margin-top: 0;
+}
+
+/* Switch Job Type Popup Dialog */
+.switch-job-type-dialog-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.switch-job-type-formcontrol.MuiFormControl-root {
+  min-width: 300px;
+  margin: 0 auto 1rem auto;
+}
+
+.job-type-switch-button.MuiButton-root {
+  margin: 0.5rem;
+}
+
+.job-tpye-switch-alert-policy-number-input {
+  margin-bottom: 1rem;
+}
+
+/* Actions */
+.follow-up-date-check-message {
+  font-size: small;
+  color: #fe3939;
+  margin: 0;
+}
+
+/* New Job Questionnaire Popup Dialog */
+.new-job-questionnaire-dialog-container.MuiAppBar-root {
+  position: relative;
+}
+
+.new-job-questionnaire-title {
+  flex: 1;
+}
+
+.new-job-questionnaire-dialog-actions.MuiDialogActions-root {
+  padding: 8px 24px;
+}
+
+.new-job-questionnaire-dialog-add-driver-action.MuiDialogActions-root {
+  padding: 8px 14px;
+}
+
+.new-job-questionnaire-dialog-add-driver-button.MuiIconButton-root {
+  color: #57413a;
+}
+
+.new-job-questionnaire-dialog-actions.MuiDialogActions-root
+  > :not(:first-of-type) {
+  margin-left: 1rem;
+}
+
+.new-job-questionnaire-cancel-button.MuiButton-root,
+.new-job-questionnaire-preview-button.MuiButton-root,
+.new-job-questionnaire-save-button.MuiButton-root {
+  margin-bottom: 1rem;
+}
+
+/* Auto Assign Button */
+.auto-assign-button {
+  margin-right: 1.5rem;
+}
+
+.auto-assign-badge .MuiBadge-badge {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  background-color: #bb444e;
+  color: #fff;
+}
+
+.auto-sign-button-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.auto-sign-button-container p {
+  margin-right: 1rem;
+}
+
+.auto-assign-rule-note.MuiTypography-root {
+  color: #1a4d2e;
+  font-size: 0.8rem;
+}
+
+.task-notification-container {
+  width: 400px;
+}
+
+/* Task Console Form Controls */
+.task-console-form-control-container.MuiFormControl-root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task-console-button-controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .task-notification-container {
+    width: 100%;
+  }
+}
+
+.task-notification-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1.5rem;
+}
+
+.task-notifications-header {
+  padding-top: 10px;
+  color: #57413a;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.task-parent {
+  width: 80%;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-child {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.task-create-date {
+  margin-left: 100px;
+}
+
+.expire-session {
+  margin: 1rem;
+}
+.alert-session {
+  padding-left: 1rem;
+}
+.task-child-alert-title.MuiTypography-root {
+  color: #ff9f29;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+.task-child-delete-title.MuiTypography-root {
+  color: #853037;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+.dark-divider.MuiDivider-root {
+  border: solid 2px;
+}
+
+.task-detail {
+  width: 100%;
+}

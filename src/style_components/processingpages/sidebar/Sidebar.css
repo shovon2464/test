@@ -1,0 +1,126 @@
+.top-nav-toolbar {
+  background-color: #D9D9D9;
+}
+
+.top-nav-icon-button.MuiIconButton-root {
+  color: #57413A;
+  margin-right: 1.5rem;
+}
+
+.top-navbar-logo {
+  height: 3rem;
+  padding: 0.2rem 0;
+}
+
+.sidebar-drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.sidebar-drawer > .MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+  border-right: 2px solid #D9D9D9;
+}
+
+.sidebar-item-container.css-gnn3bj {
+  margin-top: 0;
+}
+
+.sidebar-item-log-out:hover {
+  background-color: white;
+}
+
+.create-job-button.MuiButton-root {
+  background-color: #57413A;
+  color: #FFF;
+  border: 2px solid #57413A;
+  font-weight: bold;
+}
+
+.create-job-button.MuiButton-root:hover {
+  background-color: #FFF;
+  color: #57413A;
+}
+
+.drawer-list-item-button {
+  color: #000;
+}
+
+.sidebar-icons g {
+  fill: #000;
+}
+
+.connected g {
+  fill: green;
+}
+
+.not-connected g {
+  fill: red;
+}
+
+.drawer-list-item-button:hover {
+  font-weight: bold;
+  color: #86715F;
+}
+
+.drawer-list-item-button:hover .sidebar-icons g  {
+  fill: #86715F;
+}
+
+.drawer-list-item-button.MuiListItemButton-root.Mui-selected {
+  background-color: white;
+  color: #A69282;
+  font-weight: bold;
+}
+
+.drawer-list-item-button.MuiListItemButton-root.Mui-selected .sidebar-icons g  {
+  fill: #A69282;
+}
+
+.drawer-list-item-button.MuiListItemButton-root.Mui-selected:hover {
+  background-color: white;
+}
+
+.drawer-link-to-uw-esign.MuiLink-root {
+  color: black;
+  text-decoration: none;
+}
+
+.drawer-list-log-out-button.MuiListItemButton-root {
+  padding: 0;
+}
+
+.drawer-list-log-out-button:hover .drawer-list-item-button {
+  font-weight: bold;
+  color: #86715F;
+}
+
+.drawer-list-log-out-button:hover .sidebar-icons g  {
+  fill: #86715F;
+}
+
+.sidebar-icons {
+  height: 1.2rem;
+  width: 2.5rem;
+}
+
+.live-clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.live-clock-container p {
+  font-weight: bold;
+}
+
+.live-clock-time.MuiTypography-root {
+  font-size: 2.8rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.3rem;
+  color: #7A5B52;
+}

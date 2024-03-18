@@ -1,0 +1,24 @@
+.homepage_container {
+  /* height: 100vh; */
+  margin-bottom: 100px;
+  clear: both;
+}
+
+
+.WelcomeHeader {
+  font-size: 56px;
+  line-height: 1.2;
+}
+.WelcomeInnerContent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.welcomeImage_container {
+    display: flex;
+    align-items: center;
+}
+
+

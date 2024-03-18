@@ -1,0 +1,353 @@
+.ticket-icon-container {
+  position: fixed;
+  bottom: 100px;
+  right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .ticket-icon-container {
+    bottom: 20px;
+  }
+}
+
+@media only screen and (max-height: 1053px) {
+  .ticket-icon-container {
+    bottom: 20px;
+  }
+}
+
+.ticket-icon-badge .MuiBadge-badge {
+  background-color: #BB444E;
+  color: #FFF;
+  min-width: 1rem;
+  height: 1rem;
+  border-radius: 2rem;
+}
+
+.ticket-drawer-icon-button.MuiIconButton-root {
+  background-color: #000;
+  padding: 0.6rem;
+}
+
+.ticket-drawer-icon-button.MuiIconButton-root:hover {
+  background-color: #262626;
+}
+
+.ticket-drawer-icon-button-icon.MuiSvgIcon-root {
+  fill: #FFF;
+  font-size: 1.5em;
+  transform: scaleX(-1);
+}
+
+.ticket-drawer .MuiPaper-root.MuiDrawer-paper {
+  width: 40%;
+  height: 90%;
+  margin: 0 0 0 auto;
+  align-items: center;
+  background-color: #F4F4F4;
+}
+
+.ticket-drawer-header {
+  width: 100%;
+  margin: 20rem;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.ticket-drawer-header h4 {
+  padding-left: 1rem;
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.ticket-drawer-close-button.MuiIconButton-root:hover {
+  background-color: #262626;
+}
+
+.ticket-drawer-close-button-icon.MuiSvgIcon-root {
+  fill: #FFF;
+  font-size: 1.5em;
+}
+
+.ticket-drawer-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.no-ticket-notify.MuiTypography-root {
+  margin-top: 2rem;
+}
+
+.ticket-drawer-post-container {
+  width: 100%;
+  height: calc(100vh - 330px);
+  overflow: auto;
+  overflow-y: overlay;
+  padding: 2rem 2rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.show-comments {
+  height: calc(100vh - 400px);
+}
+
+.show-description {
+  height: calc(100vh - 560px);
+}
+
+.ticket-card.MuiCard-root,
+.ticket-detail-card.MuiCard-root {
+  width: 100%;
+}
+
+.ticket-user-name.MuiTypography-root {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ticket-detail-title.MuiTypography-root {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1rem 0rem;
+}
+
+.ticket-description.MuiTypography-root {
+  margin-bottom: 1rem;
+}
+
+.ticket-date.MuiTypography-root,
+.ticket-comment-date.MuiTypography-root.MuiTypography-root {
+  font-weight:100;
+  font-size: 0.8rem;
+  color: #afafaf;
+}
+
+.ticket-unread-badge .MuiBadge-badge {
+  min-width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 2rem;
+  background-color: #BB444E;
+  color: #FFF;
+}
+
+.ticket-drawer-post-text-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem 2rem;
+  position: relative;
+}
+
+.ticket-drawer-post-text-field {
+  display: block;
+}
+
+.ticket-drawer-post-text-field .MuiTextField-root {
+  margin-top: 0;
+  background-color: #FFF;
+  width: 100%;
+}
+
+.create-new-ticket-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.ticket-back-icon-button.MuiIconButton-root:hover {
+  background-color: #262626;
+}
+
+.ticket-back-icon-button-icon.MuiSvgIcon-root {
+  fill: #FFF;
+  font-size: 1.2em;
+}
+
+.close-ticket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.close-ticket-text-button.MuiButton-root {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+}
+
+.close-ticket-text-button.MuiButton-root:hover {
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+}
+
+.ticket-loading-spinner.MuiCircularProgress-root {
+  margin-top: 12rem;
+  height: 12rem !important;
+  width: 12rem !important;
+}
+
+.ticket-loading-spinner.MuiCircularProgress-root .MuiCircularProgress-circle {
+  stroke-width: 1;
+}
+
+.ticket-comment {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background: #FFF;
+  border-radius: 1.125rem 1.125rem 1.125rem 0;
+  min-height: 2.25rem;
+  width:fit-content;
+  max-width: 66%;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075),
+    0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+
+.ticket-comment-date.MuiTypography-root {
+  margin-top: -0.7rem;
+}
+
+.each-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-messages {
+  margin-left: auto;
+  border-radius: 1.125rem 1.125rem 0 1.125rem;
+  background: #FBF6E9;
+  color: #2E221F;
+}
+
+.my-messages .ticket-comment-name,
+.my-messages .ticket-comment-content {
+  margin-left: auto;
+  text-align: right;
+}
+
+.ticket-comment-name.MuiTypography-root {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-comment-content.MuiTypography-root,
+.ticket-title.MuiTypography-root,
+.ticket-detail-title.MuiTypography-root,
+.ticket-description.MuiTypography-root {
+  /* display: inline-block; */
+  word-break: break-word;
+}
+
+.my-msg-container .ticket-comment-date.MuiTypography-root {
+  margin-left: auto;
+}
+
+.ticket-comment-alert-input.MuiAlert-root {
+  margin-bottom: 1rem;
+}
+
+.scroll-to-bottom-icon-button.MuiIconButton-root {
+  position:absolute;
+  top: -90%;
+  right: 1rem;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075),
+    0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-bottom-icon-button-broker-view.MuiIconButton-root {
+  position:absolute;
+  top: -210%;
+  right: 1rem;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075),
+    0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-bottom-icon-button.MuiIconButton-root:hover,
+.scroll-to-bottom-icon-button-broker-view.MuiIconButton-root:hover {
+  background-color: #C0B1A5;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075),
+    0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-bottom-icon-button.MuiIconButton-root:hover .scroll-to-bottom-icon.MuiSvgIcon-root,
+.scroll-to-bottom-icon-button-broker-view.MuiIconButton-root:hover .scroll-to-bottom-icon.MuiSvgIcon-root {
+  color:#fff;
+}
+
+.scroll-to-bottom-icon.MuiSvgIcon-root {
+  color: #7A5B52;
+}
+
+@media only screen and (max-width: 960px) {
+  .ticket-drawer .MuiPaper-root.MuiDrawer-paper {
+    width: 90%;
+    height: 100%;
+  }
+
+  .ticket-drawer-post-container {
+    height: calc(100vh - 180px);
+  }
+  
+  .show-comments {
+    height: calc(100vh - 280px);
+  }
+
+  .show-description {
+    height: calc(100vh - 460px);
+  }
+}
+
+.ticket-comment-file-upload-button.MuiIconButton-root {
+  margin-right: -0.75rem;
+}
+
+.ticke-comment-text-field-container {
+  display: flex;
+}
+
+.ticket-comment-file {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  color:#2D8650;
+}
+
+.ticket-comment-file:hover {
+  color:#1A4D2E;
+}
+
+.ticket-comment-file .MuiSvgIcon-root {
+  margin-right: 0.5rem;
+}
+
+.ticket-comment-file-image {
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .ticket-comment-file-image {
+    width: 9rem;
+  }
+}

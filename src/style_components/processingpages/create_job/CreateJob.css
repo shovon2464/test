@@ -1,0 +1,24 @@
+.check-phone-number-input-alert.MuiAlert-root {
+  margin-bottom: 1rem;
+}
+
+.create-job-prompt-text.MuiTypography-root {
+  margin-top: 1.5rem;
+}
+
+.policy-task-history-detail-dialog,
+.task-history-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.dialog-close-icon-button.MuiIconButton-root {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.task-history-dialog .MuiDialog-paper {
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}

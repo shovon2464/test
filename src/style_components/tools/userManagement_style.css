@@ -1,0 +1,32 @@
+/* .TableContainer {
+  width: 90vw;
+} */
+
+@media only screen and (max-width: 600px) {
+  .page-container {
+    margin-top: 10%;
+  }
+  .TableContainer {
+    overflow: auto;
+    width: 90vw;
+  }
+}
+
+.user_header {
+  display: inline-block;
+}
+
+.role-change-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.user-management-paper.MuiPaper-root {
+  box-shadow: none;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem auto;
+}
+

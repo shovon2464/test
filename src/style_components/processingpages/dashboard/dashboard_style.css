@@ -1,0 +1,17 @@
+.taskAmountBar {
+  width: 50%;
+  max-width: 800px;
+  min-width: 500px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .taskAmountBar {
+        width: 80%;
+        min-width: 300px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}

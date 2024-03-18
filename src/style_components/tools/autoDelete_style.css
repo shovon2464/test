@@ -1,0 +1,67 @@
+.auto-delete-container {
+  margin-top: 100px;
+}
+
+.save_button.MuiButton-root {
+  margin-top: 7px;
+  margin-left: 30px;
+  border-radius: 4px;
+  height: 54px;
+  width: 150px;
+  font-family: Roboto;
+  letter-spacing: 2px;
+}
+
+.auto_delete_email_textfield,
+.auto_delete_days_textfield,
+.auto-delete-status {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#outlined-basic {
+  width: 315px;
+}
+
+.auto-delete-parent {
+  display: flex;
+  align-items: center;
+  clear: both;
+  width: 1000px;
+  margin: auto;
+}
+
+.auto-delete-child-email,
+.auto-delete-child-days {
+  width: fit-content;
+  float: left;
+  padding: 20px;
+  height: 100px;
+  margin: 20px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.auto-delete-divider:not([size]) {
+  height: 42px;
+}
+
+.auto-delete-child-typography {
+  color: black;
+  font-weight: 200;
+}
+
+.auto-delete-span {
+  font-size: 22px;
+}
+
+.auto-delete-db {
+  margin-top: 9px;
+  display: inline-block;
+}
+
+.auto-delete-icon {
+  margin-bottom: 9px;
+}

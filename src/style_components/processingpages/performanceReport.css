@@ -1,0 +1,40 @@
+.reportContainer {
+  width: 70%;
+  padding-bottom: 50px;
+  margin: auto;
+  position: flex;
+
+}
+
+
+.searchDate {
+  width: 90%;
+}
+
+
+.dateContainer.MuiGrid-root {
+  padding-bottom: 3%;
+  padding-top: 30px;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .reportContainer {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .userReportContainer {
+    width: 100%;
+    padding-top: 20px;
+  }
+  /* .barchart {
+    width: 400px;
+  } */
+  .dateContainer {
+    width: 100%;
+    padding-top: 30px;
+  }
+}

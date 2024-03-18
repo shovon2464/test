@@ -1,0 +1,32 @@
+footer {
+  height: 120px;
+  color: #efeae5;
+  text-align: center;
+  padding: 1.85rem;
+  background-color: #a3866f;
+}
+
+
+html, 
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.footer{
+  height: 120px;
+}
+
+/* @media screen and (min-height: 1000px) and (min-width: 1920px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+} */
